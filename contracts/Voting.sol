@@ -205,7 +205,7 @@ contract Voting {
             string memory,
             uint256,
             bool,
-            uint256,
+            address,
             string memory
         )
     {
@@ -215,7 +215,7 @@ contract Voting {
             voters[_address].voterImage,
             voters[_address].voterAllowed,
             voters[_address].hasVoted,
-            voters[_address].voteDecision,
+            voters[_address].voterAddress,
             voters[_address].voterIpfs
         );
     }

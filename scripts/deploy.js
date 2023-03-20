@@ -12,7 +12,7 @@ async function main() {
 
   await voting.deployed();
 
-  console.log("Smart contract is deployed to:", Voting.address);
+  console.log("Smart contract is deployed to:", voting.address);
 }
 
 main().catch((error) => {
