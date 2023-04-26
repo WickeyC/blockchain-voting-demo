@@ -1,5 +1,5 @@
 import "@/styles/globals.css";
-
+//Internal Import
 import { VotingProvider } from "../context/Voter";
 import NavBar from "../components/NavBar/NavBar";
 
@@ -8,7 +8,7 @@ const MyApp = ({ Component, pageProps }) => (
     <div>
       <NavBar />
       <div>
-        <Component {...pageProps} />;
+        <Component {...pageProps} />
       </div>
     </div>
   </VotingProvider>

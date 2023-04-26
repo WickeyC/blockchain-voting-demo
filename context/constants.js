@@ -1,5 +1,4 @@
-//0x0165878A594ca255338adfa4d48449f69242Eb8F
-import voting from './Voting.json';
+import voting from "./Voting.json"; //context/Voting.json
 
-export const VotingAddress = '0x0165878A594ca255338adfa4d48449f69242Eb8F';
-export const VotingAddressABIT = voting.abi;
+export const VotingAddress = "0xAAbd2Cd90b349cBFC2098a10185Ae670b96bd0f0";
+export const VotingAddressABI = voting.abi;
