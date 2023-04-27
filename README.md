@@ -1,3 +1,5 @@
+## Sample project by [`Daulat Hussain`](https://github.com/daulathussain)
+
 ```shell
 npx hardhat help
 npx hardhat test
