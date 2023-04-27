@@ -1,5 +1,7 @@
 ## Sample project by [`Daulat Hussain`](https://github.com/daulathussain)
 
+An online tutorial project i have followed to learn the integration of solidity and next.js.
+
 ```shell
 npx hardhat help
 npx hardhat test
